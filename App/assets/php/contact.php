@@ -1,6 +1,6 @@
 <?php
     $errors = '';
-    $myemail = 'example@gmail.com';
+    $myemail = 'hugo.pinto@fujitsu.com';
     if(empty($_POST['email'])  ||
        empty($_POST['name']) ||
        empty($_POST['message']))
@@ -13,7 +13,7 @@
 
     if( empty($errors)){
         $to = $myemail;
-        $email_subject = "Contact Form: Albireo Template";
+        $email_subject = "Contact Form: App do Colaborador";
         $email_body='<h3>You have received a new message. Details are given below.</h3>
         <table width="100%" border="1" cellspacing="1" cellpadding="1">
         <tr><td style="padding:10px;">Email: </td><td style="padding:10px;">'.$email.'</td></tr>
